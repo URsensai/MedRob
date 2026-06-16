@@ -18,7 +18,6 @@ def MULIN1(P):
     p = np.zeros(len(P))
     # Warm-up assignments
     p[0], p[1], p[2] = P[0], P[1], P[2]
-
     for j in range(2, len(P) - 1):
         p[j + 1] = 3 * P[j] - 3 * P[j - 1] + P[j - 2]
     return p

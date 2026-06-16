@@ -1,7 +1,7 @@
 clear; clc; close all;
 
 % Part (a)  Plot patient positions accoding to question
-t = 0:0.05:20;
+t = 0:0.05:2;
 P = sin(t + 0.2014);
 
 pred0 = MULIN0(P);
