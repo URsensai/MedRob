@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.6.10)  16 JUN 2026 14:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.6.10)  17 JUN 2026 23:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -594,7 +594,7 @@ LaTeX Font Info:    Trying to load font information for T1+lmss on input line 4
 (C:\Users\Umakanth\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmss.fd
 File: t1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-<logo-rob-eng.png, id=7, 269.3262pt x 73.2336pt>
+<logo-rob-eng.png, id=19, 269.3262pt x 73.2336pt>
 File: logo-rob-eng.png Graphic file (type png)
 <use logo-rob-eng.png>
 Package pdftex.def Info: logo-rob-eng.png  used on input line 55.
@@ -613,17 +613,125 @@ Overfull \hbox (15.0pt too wide) in paragraph at lines 64--66
 [][][] 
  []
 
+<Figure_1.png, id=21, 524.1984pt x 335.3328pt>
+File: Figure_1.png Graphic file (type png)
+<use Figure_1.png>
+Package pdftex.def Info: Figure_1.png  used on input line 78.
+(pdftex.def)             Requested size: 524.19711pt x 335.33197pt.
+<Figure_2.png, id=22, 536.2434pt x 347.8596pt>
+File: Figure_2.png Graphic file (type png)
+<use Figure_2.png>
+Package pdftex.def Info: Figure_2.png  used on input line 92.
+(pdftex.def)             Requested size: 536.24208pt x 347.85875pt.
+
+LaTeX Warning: Reference `LastPage' on page 1 undefined on input line 96.
+
 [1
 
 {C:/Users/Umakanth/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/U
-makanth/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc} <./logo-rob
--eng.png>] 
+makanth/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}
+pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.96 
+      <./logo-rob-eng.png> <./Figure_1.png (PNG copy)>]
+<IMG_0105.png, id=38, 823.075pt x 1184.425pt>
+File: IMG_0105.png Graphic file (type png)
+<use IMG_0105.png>
+Package pdftex.def Info: IMG_0105.png  used on input line 116.
+(pdftex.def)             Requested size: 823.07298pt x 1184.42212pt.
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 1
+17.
+
+(C:\Users\Umakanth\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmr.fd
+File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 1
+17.
+
+(C:\Users\Umakanth\AppData\Local\Programs\MiKTeX\tex/latex/lm\omllmm.fd
+File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
+117.
+
+(C:\Users\Umakanth\AppData\Local\Programs\MiKTeX\tex/latex/lm\omslmsy.fd
+File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
+117.
+
+(C:\Users\Umakanth\AppData\Local\Programs\MiKTeX\tex/latex/lm\omxlmex.fd
+File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 117.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 117.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 117.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 117
+.
+
+(C:\Users\Umakanth\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 117
+.
+
+(C:\Users\Umakanth\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+
+LaTeX Warning: Reference `LastPage' on page 2 undefined on input line 120.
+
+[2
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.120 
+       <./Figure_2.png (PNG copy)>]
+<LMS Predictions - All Combinations.png, id=47, 858.5676pt x 552.1428pt>
+File: LMS Predictions - All Combinations.png Graphic file (type png)
+<use LMS Predictions - All Combinations.png>
+Package pdftex.def Info: LMS Predictions - All Combinations.png  used on input 
+line 130.
+(pdftex.def)             Requested size: 858.56549pt x 552.14146pt.
+
+
+LaTeX Warning: Reference `LastPage' on page 3 undefined on input line 134.
+
+[3
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.134 
+      {C:/Users/Umakanth/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm
+.enc}{C:/Users/Umakanth/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mat
+hit.enc} <./IMG_0105.png>]
+
+LaTeX Warning: Reference `LastPage' on page 4 undefined on input line 155.
+
+[4
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.155 \end{document}
+                     <./LMS Predictions - All Combinations.png (PNG copy)>]
+
 enddocument/afterlastpage (AED): lastpage setting LastPage.
 (LatexTemplateMedicalRobotics.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-24>
  ***********
+
+
+LaTeX Warning: There were undefined references.
 
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
@@ -635,27 +743,35 @@ nged.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `LatexTemplateMedicalRobotics.out':
-(rerunfilecheck)             Before: 8FB1B16E772FD4EE7C6E2331B6FF8214;144
-(rerunfilecheck)             After:  E2BB8C9D673153269C91ECA0244CECAF;149.
+(rerunfilecheck)             Before: 8A924F54563D88F6BC95479EF27BADB9;401
+(rerunfilecheck)             After:  29FFE244CE4EA7ED7AF7549503F6F350;756.
+
+Package lastpage Warning: Rerun to get the references right on input line 155.
+
  ) 
 Here is how much of TeX's memory you used:
- 12911 strings out of 467871
- 201741 string characters out of 5416924
- 622171 words of memory out of 5000000
- 41607 multiletter control sequences out of 15000+600000
- 654883 words of font info for 51 fonts, out of 8000000 for 9000
+ 13091 strings out of 467871
+ 205665 string characters out of 5416924
+ 626288 words of memory out of 5000000
+ 41735 multiletter control sequences out of 15000+600000
+ 676218 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,11n,79p,316b,455s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/Umakanth/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.p
-fb><C:/Users/Umakanth/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss1
-2.pfb><C:/Users/Umakanth/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lm
-ss8.pfb><C:/Users/Umakanth/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/
-lmss9.pfb><C:/Users/Umakanth/AppData/Local/Programs/MiKTeX/fonts/type1/public/l
-m/lmssbx10.pfb><C:/Users/Umakanth/AppData/Local/Programs/MiKTeX/fonts/type1/pub
-lic/lm/lmtt8.pfb>
-Output written on LatexTemplateMedicalRobotics.pdf (1 page, 179947 bytes).
+ 75i,11n,79p,316b,460s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/Umakanth/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx8.
+pfb><C:/Users/Umakanth/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi
+10.pfb><C:/Users/Umakanth/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/l
+mr10.pfb><C:/Users/Umakanth/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm
+/lmr7.pfb><C:/Users/Umakanth/AppData/Local/Programs/MiKTeX/fonts/type1/public/l
+m/lmr8.pfb><C:/Users/Umakanth/AppData/Local/Programs/MiKTeX/fonts/type1/public/
+lm/lmss12.pfb><C:/Users/Umakanth/AppData/Local/Programs/MiKTeX/fonts/type1/publ
+ic/lm/lmss8.pfb><C:/Users/Umakanth/AppData/Local/Programs/MiKTeX/fonts/type1/pu
+blic/lm/lmss9.pfb><C:/Users/Umakanth/AppData/Local/Programs/MiKTeX/fonts/type1/
+public/lm/lmssbx10.pfb><C:/Users/Umakanth/AppData/Local/Programs/MiKTeX/fonts/t
+ype1/public/lm/lmtt10.pfb><C:/Users/Umakanth/AppData/Local/Programs/MiKTeX/font
+s/type1/public/lm/lmtt8.pfb>
+Output written on LatexTemplateMedicalRobotics.pdf (4 pages, 959110 bytes).
 PDF statistics:
- 50 PDF objects out of 1000 (max. 8388607)
- 3 named destinations out of 1000 (max. 500000)
- 14 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 120 PDF objects out of 1000 (max. 8388607)
+ 17 named destinations out of 1000 (max. 500000)
+ 58 words of extra memory for PDF output out of 10000 (max. 10000000)
 

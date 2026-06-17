@@ -14,7 +14,7 @@
 \usepackage{xcolor}
 \usepackage{lmodern}
 \usepackage{titlesec}
-\usepackage{amsmath}
+
 % Color
 \definecolor{oceangreen}{HTML}{004b5a}
 
@@ -66,5 +66,90 @@ Please upload your solutions via the submission activity in the Medical Robotics
 
 \section {Motion Correlation I}
 
+\subsection{1.A}
+\begin{figure}[H]
+    \centering
+    \setlength{\fboxsep}{6pt} % Padding inside the box
+    \setlength{\fboxrule}{0.5pt} % Thickness of the box border
+    \fbox{%
+        \begin{adjustbox}{max width=0.95\linewidth}
+            \includegraphics{Figure_1.png}
+        \end{adjustbox}%
+    }
+    \caption{Patient positions plotted over time.}
+    \label{fig:patient_positions}
+\end{figure}
 
+\subsection{1.B - 1.D}
+\begin{figure}[H]
+    \centering
+    \setlength{\fboxsep}{6pt}
+    \setlength{\fboxrule}{0.5pt}
+    \fbox{%
+        \begin{adjustbox}{max width=0.95\linewidth}
+            \includegraphics{Figure_2.png}
+        \end{adjustbox}%
+    }
+    \caption{Comparison of MULIN prediction models against ground truth.}
+    \label{fig:mulin_comparison}
+\end{figure}
+
+\subsection{1.E}
+\begin{verbatim}
+Console Output:
+RMSE for MULIN0: 0.00176229
+RMSE for MULIN1: 0.00008806
+RMSE for MULIN2: 0.00176230
+\end{verbatim}
+Observing the RMSE values, it is clear that the MULIN order 1 is the best for the following case.
+
+\section{Least Mean Squares}
+\subsection{2.A}
+\begin{figure}[H]
+    \centering
+    \setlength{\fboxsep}{6pt}
+    \setlength{\fboxrule}{0.5pt}
+    \fbox{%
+        \begin{adjustbox}{max width=0.95\linewidth}
+            \includegraphics{IMG_0105.png}
+        \end{adjustbox}%
+    }
+    \caption{Calculation of $\hat{y}_4$ using the LMS algorithm.}
+    \label{fig:pen_paper_solution}
+\end{figure}
+
+\subsection{2.B}
+\begin{figure}[H]
+    \centering
+    \setlength{\fboxsep}{6pt}
+    \setlength{\fboxrule}{0.5pt}
+    \fbox{%
+        \begin{adjustbox}{max width=0.95\linewidth}
+            \includegraphics{LMS Predictions - All Combinations.png}
+        \end{adjustbox}%
+    }
+    \caption{All the Plots wrt y, M and u.}
+    \label{fig:LMS Predictions}
+\end{figure}
+
+\subsection{2.C}
+\begin{verbatim}
+========== LMS RESULTS ==========
+   M   |    mu    |     RMS
+--------------------------------
+   2   |  0.0001   |   0.066892
+   2   |  0.0002   |   0.066931
+   2   |  0.0010   |   0.061117
+   4   |  0.0001   |   0.066981
+   4   |  0.0002   |   0.065891
+   4   |  0.0010   |   0.055339
+   8   |  0.0001   |   0.065843
+   8   |  0.0002   |   0.062422
+   8   |  0.0010   |   0.050442
+--------------------------------
+BEST: M=8, mu=0.0010, RMS=0.050442
+================================
+\end{verbatim}
+
+As the console output shows the value of RMSE decreases as the value of M and $\mu$ increases, This is due to the algorithm having access to more data points.
 \end{document}
